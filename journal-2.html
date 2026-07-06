@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal n°1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+    --accent: #e5e5e5;
+    --bg: #1d0000;
+    --border-color: #555555;
+    --muted: #cfcfcf;
+    --panel: #a50909;
+    --primary: #9c9c9c;
+    --primary-hover: #b0b0b0;
+    --text: #f2f2f2;
+    --transition-speed: 0.3s;
+
+    body {
+    background: radial-gradient(1200px 800px at 20% 10%, #3d0303 0%, var(--bg) 95%);
+    color: var(--text);
+    display: block;
+    font-family: "Google Sans", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding: 0;
+    padding-top: 56px;
+}
+}
+    </style>
+</head>
+<body>
+    <section class="coquillages">
+        <header class="nav">
+            <div class="navtitle-group">
+                <a class="navtitle" href="main.html"><span>J<s>ournal_Int</s></span></a>
+                <a class="navtitle-sub">
+                    <span style="color: #064ca3;">J'arrête pas</span> · Reforme ça · <span style="color: #CE1126;">Va marcher</span>
+                </a>
+            </div>
+            
+            <nav class="navpro">
+                <a href="devise.html">Devise</a>
+                <a href="licenses.html">Condition</a>
+                <a href="journaux.html">Journaux</a>
+                
+                <div class="lang-switcher-container">
+                    <button class="lang-btn" onclick="toggleLangMenu()">🌐</button>
+                    <div id="lang-menu" class="lang-menu-isolated">
+                        <button class="lang-option" onclick="setLang('th')">🇹🇭 ภาษาไทย</button>
+                        <button class="lang-option" onclick="setLang('en')">🇬🇧 English</button>
+                        <button class="lang-option" onclick="setLang('fr')">🇫🇷 Français</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+    <section class="corps fade-in-load">
+        <div>
+            <h1 class="corpstext">« Moririn »</h1>
+            <div class="introd">モリリン</div>
+            <div class="timewrite">เขียนครั้งแรกเมื่อ 25 มิถุนายน 2026, 23:48 น.</div>
+        </div>
+    </section>
+
+    <section class="media-container">
+        <div class="content-group">
+    <img src="Images/keukenhof-park.jpg" class="content-img align-left" alt="Illustration">
+    
+    <p class="content-text">
+        บาปกรรมมันมีจีงง บาปกรรมจะตามทัน เพราะสิ่งที่คุณทามมม จะเป็นผลกรรมตามไป บาปกรรมมันมีจีงงงง บาปกรรมจะตามปายย
+    </p>
+</div>
+    </section>
+    <footer>
+        <div class="foot">
+            <p>2026 Journal_Int <br><a href="licenses.html">Licences on this website</a></p>
+        </div>
+    </footer>
+
+    <script src="lang.js"></script>
+</body>
+</html>
