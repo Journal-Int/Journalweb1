@@ -3,16 +3,19 @@ const translations = {
     'x5b338n': 'และนี่คือ...',
     'j76n33k':  'คำขวัญ',
     'k9035ee':  'ข้อตกลง',
+    'a350377':  'เรื่องเล่า',
   },
   en: {
     'x5b338n': 'This is...',
     'j76n33k':  'Motto',
     'k9035ee':  'Conditions',
+    'a350377':  'Journals',
   },
   fr: {
     'x5b338n': 'Voici c&apos;est...',
     'j76n33k':  'Devise',
     'k9035ee':  'Conditions',
+    'a350377':  'Journaux',
   }
 };
 
@@ -34,8 +37,9 @@ function setLang(lang) {
   // เรียกใช้งานตามคีย์ที่มีอยู่ในวัตถุ translations ด้านบน
   safeTranslate('x5b338n', t.x5b338n);
   safeTranslate('j76n33k', t.j76n33k);
-    safeTranslate('k9035ee', t.k9035ee);
-  
+  safeTranslate('k9035ee', t.k9035ee);
+  safeTranslate('a350377', t.a350377);
+
   const langBtn = document.querySelector('.lang-btn');
   if (langBtn) {
     const labels = { fr: 'FR', th: 'TH', en: 'EN' };
