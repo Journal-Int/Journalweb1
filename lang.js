@@ -1,31 +1,18 @@
 const translations = {
   th: {
     'x5b338n': 'และนี่คือ...',
-    'hero-desc':  'เริ่มต้นสร้างเว็บสวยๆ ด้วย HTML และ CSS',
-    'hero-btn':   'เริ่มต้นเลย',
-    'nav-home':   'หน้าแรก',
-    'nav-about':  'เกี่ยวกับ',
-    'nav-contact':'ติดต่อ',
-    // เพิ่มคีย์เหล่านี้ให้ตรงกับด้านล่างหากต้องการใช้งานจริง
-    'description': 'รายละเอียด...',
-    'member': 'สมาชิก',
-    'merchant': 'ร้านค้า',
+    'j76n33k':  'คำขวัญ',
+    'k9035ee':  'ข้อตกลง',
   },
   en: {
     'x5b338n': 'This is...',
-    'hero-desc':  'Start building beautiful websites with HTML and CSS',
-    'hero-btn':   'Get Started',
-    'nav-home':   'Home',
-    'nav-about':  'About',
-    'nav-contact':'Contact',
+    'j76n33k':  'Motto',
+    'k9035ee':  'Conditions',
   },
   fr: {
     'x5b338n': 'Voici c&apos;est...',
-    'hero-desc':  'Commencez à créer de beaux sites Web avec HTML et CSS',
-    'hero-btn':   'Commencer',
-    'nav-home':   'Accueil',
-    'nav-about':  'À propos',
-    'nav-contact':'Contact',
+    'j76n33k':  'Devise',
+    'k9035ee':  'Conditions',
   }
 };
 
@@ -46,20 +33,11 @@ function setLang(lang) {
   
   // เรียกใช้งานตามคีย์ที่มีอยู่ในวัตถุ translations ด้านบน
   safeTranslate('x5b338n', t.x5b338n);
-  safeTranslate('description', t.description);
-  safeTranslate('member', t.member);
-  safeTranslate('member-title', t.member);
-  safeTranslate('merchant', t.merchant);
-  safeTranslate('merch-des', t.merchdes);
-  safeTranslate('titlelink', t.titlelink);
-  safeTranslate('foot', t.foot);
-  safeTranslate('merchInfo1', t.merchInfo1);
-  safeTranslate('merchInfo2', t.merchInfo2);
-  safeTranslate('visitmerch', t.visitmerch);
+  safeTranslate('j76n33k', t.j76n33k);
   
   const langBtn = document.querySelector('.lang-btn');
   if (langBtn) {
-    const labels = { fr: '🇫🇷 FR', th: '🇹🇭 TH', en: '🇬🇧 EN' };
+    const labels = { fr: 'FR', th: 'TH', en: 'EN' };
     langBtn.innerHTML = `🌐 ${labels[lang] || lang.toUpperCase()} ▾`;
   }
 
