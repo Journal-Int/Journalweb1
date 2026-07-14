@@ -44,21 +44,24 @@ body {
 }
 
 .nav {  
-    -webkit-backdrop-filter: blur(12px);
-    align-items: center;
-    backdrop-filter: blur(12px);
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1); 
-    border-radius: 8px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); 
-    box-sizing: border-box; 
-    color: #ffffff;
-    display: flex;
-    gap: 8px;
-    justify-content: space-between; 
-    margin: 0 auto;
-    padding: 5px 6px 7px 6px;
-    width: 100%;
+  -webkit-backdrop-filter: blur(12px);
+  align-items: center;
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1); 
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); 
+  box-sizing: border-box; 
+  color: #ffffff;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between; 
+  left: 0;
+  margin: 0 auto;
+  padding: 5px 6px 7px 6px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navpro {  
