@@ -541,6 +541,74 @@ a {
     float: none;
     margin: 0 auto 25px auto;
 }
+
+.ability-section {
+    align-items: center;
+    display: flex;
+    gap: 135px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    width: min(1160px, calc(100% - 32px));
+}
+.ability-left {
+    flex: 1;
+}
+.ability-title {
+    color: #ffffff;
+    filter: drop-shadow(10px 10px 25px rgba(0, 0, 0, 0.5));
+    font-size: 7ch;
+    font-weight: 600;
+    line-height: 1.1;
+    margin: 0;
+    text-decoration: none;
+}
+.ability-grid {
+    display: grid;
+    flex: 2;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.ability-card {
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform var(--transition-speed), border-color var(--transition-speed), box-shadow var(--transition-speed);
+}
+.ability-card:hover {
+    border-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+.ability-emoji {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+.ability-card-title {
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0 0 8px;
+}
+.ability-card-detail {
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0;
+}
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+    .ability-section {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+}
+
 /* ANIMATIONS */
 @keyframes fadeInUp {
     from {
