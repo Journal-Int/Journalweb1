@@ -64,12 +64,12 @@ body {
   width: 100%;
 }
 
-.navpro {  
+.navpro {
+    align-items: center;
     border: 1px solid var(--line);
     border-radius: 8px;
     color: #ffffff;
     display: flex;
-    align-items: center;
     gap: 8px;
     padding: 6px;
     width: fit-content;
