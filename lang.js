@@ -34,6 +34,7 @@ function setLang(lang) {
   // เรียกใช้งานตามคีย์ที่มีอยู่ในวัตถุ translations ด้านบน
   safeTranslate('x5b338n', t.x5b338n);
   safeTranslate('j76n33k', t.j76n33k);
+    safeTranslate('k9035ee', t.k9035ee);
   
   const langBtn = document.querySelector('.lang-btn');
   if (langBtn) {
