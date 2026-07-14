@@ -559,9 +559,12 @@ a {
     filter: drop-shadow(10px 10px 25px rgba(0, 0, 0, 0.5));
     font-size: 7ch;
     font-weight: 600;
+    left: 15px;
     line-height: 1.1;
-    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 4px;
     text-decoration: none;
+    width: fit-content;
 }
 .ability-grid {
     display: grid;
