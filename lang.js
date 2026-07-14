@@ -45,7 +45,7 @@ function setLang(lang) {
   };
   
   // เรียกใช้งานตามคีย์ที่มีอยู่ในวัตถุ translations ด้านบน
-  safeTranslate('hero-title', t['hero-title']);
+  safeTranslate('x5b338n', t.x5b338n);
   safeTranslate('description', t.description);
   safeTranslate('member', t.member);
   safeTranslate('member-title', t.member);
