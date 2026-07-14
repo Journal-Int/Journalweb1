@@ -58,18 +58,15 @@ body {
     justify-content: space-between; 
     margin: 0 auto;
     padding: 5px 6px 7px 6px;
-    position: sticky;
-    top: 16px;
     width: 100%;
-    z-index: 1000;
 }
 
-.navpro {
-    align-items: center;
+.navpro {  
     border: 1px solid var(--line);
     border-radius: 8px;
     color: #ffffff;
     display: flex;
+    align-items: center;
     gap: 8px;
     padding: 6px;
     width: fit-content;
