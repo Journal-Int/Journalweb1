@@ -1,6 +1,6 @@
 const translations = {
   th: {
-    'hero-title': 'ยินดีต้อนรับสู่เว็บไซต์ของเรา',
+    'x5b338n': 'และนี่คือ...',
     'hero-desc':  'เริ่มต้นสร้างเว็บสวยๆ ด้วย HTML และ CSS',
     'hero-btn':   'เริ่มต้นเลย',
     'nav-home':   'หน้าแรก',
@@ -12,7 +12,7 @@ const translations = {
     'merchant': 'ร้านค้า',
   },
   en: {
-    'hero-title': 'Welcome to Our Website',
+    'x5b338n': 'This is...',
     'hero-desc':  'Start building beautiful websites with HTML and CSS',
     'hero-btn':   'Get Started',
     'nav-home':   'Home',
@@ -20,7 +20,7 @@ const translations = {
     'nav-contact':'Contact',
   },
   fr: {
-    'hero-title': 'Bienvenue sur notre site Web', // แก้ไขคำแปลให้เป็นภาษาฝรั่งเศส
+    'x5b338n': 'Voici c&apos;est...',
     'hero-desc':  'Commencez à créer de beaux sites Web avec HTML et CSS',
     'hero-btn':   'Commencer',
     'nav-home':   'Accueil',
