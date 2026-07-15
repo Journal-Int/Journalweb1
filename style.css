@@ -549,6 +549,7 @@ a {
     justify-content: space-between;
     margin: 0 auto;
     margin-bottom: 120px;
+    margin-top: 75px;
     width: min(1160px, calc(100% - 32px));
 }
 .ability-left {
