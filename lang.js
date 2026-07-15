@@ -5,7 +5,7 @@ const translations = {
     'k9035ee': 'ข้อตกลง',
     'a350377': 'เรื่องเล่า',
     'f40o8o1': 'คนที่เขียนโค้ดได้นิดหน่อย <br>แต่ก็ชอบเอาเวลาไปทุ่มกับภาษามากกว่า :/',
-    'ability-title': 'ความสามารถ',
+    'k5ss221': 'ความสามารถ',
     'ability-card-title-1': 'การพัฒนาเว็บ',
     'ability-card-detail-1': 'สร้างเว็บไซต์ที่สะอาด ใช้งานได้จริง และทันสมัย',
     'ability-card-title-2': 'รองรับทุกหน้าจอ',
@@ -23,7 +23,7 @@ const translations = {
     'k9035ee': 'Conditions',
     'a350377': 'Journals',
     'f40o8o1': 'One who is able to do coding, <br>but he always spends time on languages more than that :/',
-    'ability-title': 'Abilities',
+    'k5ss221': 'Abilities',
     'ability-card-title-1': 'Development',
     'ability-card-detail-1': 'Building clean, functional, and modern websites.',
     'ability-card-title-2': 'Responsive',
@@ -41,7 +41,7 @@ const translations = {
     'k9035ee':  'Conditions',
     'a350377':  'Journaux',
     'f40o8o1': 'Celui qui peut faire un peu de codage. <br>Mais il passe toujours du temps sur les langues. :/',
-    'ability-title': 'Capacités',
+    'k5ss221': 'Abilités',
     'ability-card-title-1': 'Développement',
     'ability-card-detail-1': 'Création de sites Web propres, fonctionnels et modernes.',
     'ability-card-title-2': 'Adaptatif',
@@ -75,6 +75,9 @@ function setLang(lang) {
   safeTranslate('j76n33k', t.j76n33k);
   safeTranslate('k9035ee', t.k9035ee);
   safeTranslate('a350377', t.a350377);
+  safeTranslate('f40o8o1', t.f40o8o1);
+  safeTranslate('k5ss221', t.k5ss221);
+
 
   const langBtn = document.querySelector('.lang-btn');
   if (langBtn) {
