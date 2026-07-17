@@ -211,7 +211,7 @@ a {
     color: #ffffff;
     font-size: 3ch;
     line-height: 1.55;
-    max-width: 34ch;
+    max-width: 55ch;
 }
 /* Footer */
 .foot {
@@ -611,6 +611,30 @@ a {
         gap: 40px;
         text-align: center;
     }
+}
+
+.xkv84dd {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-left: 15px;
+    margin-bottom: 12px;
+}
+
+.lang-label {
+    color: #e0e0e0;
+    font-size: 1.7ch;
+}
+
+.lang-badge {
+    background: #c0c0c0;
+    color: #222222;
+    font-size: 1.25ch;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
 }
 
 /* ANIMATIONS */
